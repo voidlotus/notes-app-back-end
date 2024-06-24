@@ -5,7 +5,7 @@ const {addNoteHandler, getAllNotesHandler, getNoteByIdHandler, editNoteByIdHandl
 const routes = [
     {
         method: 'POST',
-        path: './notes',
+        path: '/notes',
         handler: addNoteHandler,
     },
     {
